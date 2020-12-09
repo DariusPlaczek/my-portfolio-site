@@ -1,4 +1,5 @@
-$primary-color: #333333;
+$primary-color: #FFFFFF;
+$background-primary: #000000;
 $secondary-color: #000000;
 $primary-title: #ffffff;
 $secondary-title: #000000;
@@ -9,6 +10,48 @@ $primary-text: #ffffff;
   padding: 0;
 }
 
+h6 {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: $primary-color;
+}
+
+h6::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  width: 5px;
+  height: 5px;
+  background-color: $primary-color;
+  border-radius: 50%;
+}
+
+h6::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 15px;
+  height: 1px;
+  width: 52px;
+  background: $primary-color;
+}
 
 %flex-columns {
   display: flex;
@@ -155,7 +198,7 @@ $primary-text: #ffffff;
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: blueviolet;
+  background-color: $background-primary;
 }
 
 .react-container {
@@ -167,7 +210,7 @@ $primary-text: #ffffff;
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: red;
+  background-color: $background-primary;
 }
 
 
@@ -180,7 +223,7 @@ $primary-text: #ffffff;
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: green;
+  background-color: $background-primary;
 }
 
 

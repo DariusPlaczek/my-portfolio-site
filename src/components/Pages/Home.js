@@ -8,7 +8,7 @@ function Home(props) {
 
     return (
         <div className={`home-container ${props.animation}`} style={styles}>
-            <h1>About Me</h1>
+            <h6>About Me</h6>
         </div>
     )
 }
