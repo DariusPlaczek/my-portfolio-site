@@ -10,6 +10,23 @@ $primary-text: #ffffff;
   padding: 0;
 }
 
+em {
+  color: #5C6A8F;
+  text-transform: none;
+  font-style: normal;
+  font-size: 42px;
+}
+
+h2 {
+  text-align: right;
+  margin-bottom: 40px;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: white;
+}
+
 h6 {
     position: relative;
     font-weight: 600;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.scss';
+import './App.css';
 
 import { Links } from './components/Utils/'
 import { Home, ReactPortfolio, Webdesign } from './components/Pages'

@@ -8,6 +8,7 @@ function Home(props) {
 
     return (
         <div className={`home-container ${props.animation}`} style={styles}>
+            <h2>Witaj jestem</h2><em>Dariusz Placzek</em>
             <h6>About Me</h6>
         </div>
     )
